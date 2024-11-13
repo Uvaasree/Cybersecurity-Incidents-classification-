@@ -20,10 +20,13 @@ Key metrics for performance assessment:
 ## Results
 
 The model's performance on test data:
-- **Macro-F1 Score**: `0.XX`
-- **Precision**: `0.XX`
-- **Recall**: `0.XX`
 
+                precision    recall  f1-score   support
+
+BenignPositive       0.75      0.83      0.79   1752940
+ FalsePositive       0.60      0.59      0.59    902698
+  TruePositive       0.84      0.74      0.79   1492354
+  
 ## Future Enhancements
 
 - Additional feature engineering
