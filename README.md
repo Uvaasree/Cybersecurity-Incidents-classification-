@@ -1,4 +1,4 @@
-# Cybersecurity-Incidents-classification
+# Cybersecurity-Incident-classification
 
 ## Overview
 
@@ -17,15 +17,16 @@ Key metrics for performance assessment:
 - **Precision**: Measures accuracy in positive predictions.
 - **Recall**: Measures correct identification of true threats.
 
-## Results
+## Model Performance
 
 The model's performance on the test set:
 
-Class	Precision	Recall	F1-Score	Support
-BenignPositive	0.75	0.83	0.79	1,752,940
-FalsePositive	0.60	0.59	0.59	902,698
-TruePositive	0.84	0.74	0.79	1,492,354
-  
+| Class           | Precision | Recall | F1-Score | Support |
+|-----------------|-----------|--------|----------|---------|
+| **BenignPositive** | 0.75      | 0.83   | 0.79     | 1,752,940 |
+| **FalsePositive**  | 0.60      | 0.59   | 0.59     | 902,698   |
+| **TruePositive**   | 0.84      | 0.74   | 0.79     | 1,492,354 |
+
 ## Future Enhancements
 
 - Additional feature engineering
@@ -33,4 +34,4 @@ TruePositive	0.84	0.74	0.79	1,492,354
 
 ---
 
-This README should provide a quick and clear overview for users to understand the purpose, structure, and essential steps for model building and testing.
+This README now includes a detailed model performance section to clearly show the evaluation metrics for each class.
