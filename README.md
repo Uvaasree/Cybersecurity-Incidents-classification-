@@ -19,12 +19,12 @@ Key metrics for performance assessment:
 
 ## Results
 
-The model's performance on test data:
+The model's performance on the test set:
 
-                precision    recall  f1-score   support
-BenignPositive       0.75      0.83      0.79   1752940
- FalsePositive       0.60      0.59      0.59    902698
-  TruePositive       0.84      0.74      0.79   1492354
+Class	Precision	Recall	F1-Score	Support
+BenignPositive	0.75	0.83	0.79	1,752,940
+FalsePositive	0.60	0.59	0.59	902,698
+TruePositive	0.84	0.74	0.79	1,492,354
   
 ## Future Enhancements
 
